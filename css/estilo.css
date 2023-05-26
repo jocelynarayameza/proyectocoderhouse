@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right:groove;
+    border-color: none;
+}
+nav li{
+    display: inline;
+}
+body {background-color: #e5eaea;
+    font-family: 'Mandali', sans-serif;
+}
+.headers{
+    width: 100%;
+}
+.logo1 {
+    width: 150px;
+    padding-right: 30px;
+}
+.redesheader{
+    text-align: right;
+    padding: 10px;
+    background-color: #ffb84c;
+}
+.caja1, .caja2{
+    border: groove;
+    width: auto;
+    background: rgb(245,234,234);
+    background: linear-gradient(90deg, rgba(245,234,234,1) 4%, rgba(255,184,76,1) 85%, rgba(140,56,57,1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cajaequipo{
+    border: groove;
+    width: auto;
+    background: rgb(140,56,57);
+    background: linear-gradient(90deg, rgba(140,56,57,1) 0%, rgba(242,228,228,1) 0%, rgba(255,184,76,1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.titulocaja1{
+    text-align: center;
+    border: groove;
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+}
+.mision, .vision, .parrafoequipo, .pvivo, .ptutores, .pinteractiva, .pmetodologia{
+    padding: 20px;
+    text-align: justify;
+}
+.contenidocaja1, .contenidocaja2{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+@media only screen and (max-width:1024px) {
+    .contenidocaja1, .contenidocaja2, .equipocaja1{
+        display: flex;
+        flex-direction: column;
+    }
+    .carousel-caption{
+        padding: 0%;
+    }
+    .carousel-caption h2{
+        font-size: medium;
+    }
+}
+
+.parrafocaja1{
+    text-align: justify;
+    border-style: none;
+    width: auto;
+    padding: 5%;
+}
+.cajasindex{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin: 30px;
+    gap: 30px;
+    }
+    
+@media only screen and (max-width:700px) {
+    .cajasindex{
+        display: flex;
+        flex-direction: column;
+    }
+    .circulos{
+            display: flex;
+            flex-direction: column;
+    }
+    .carousel-caption h2{
+        font-size: smaller;
+    }
+}
+.caja1 img, .caja2 img{
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+h1{
+    color: #8c3839;
+}
+.test{
+    background-color: #8c3839;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.testtexto{
+    color: #ffb84c;
+    text-align: center;
+}
+.testtexto a{
+    text-decoration: none;
+    color:#e5eaea;
+    padding: 5px;
+}
+.testtexto a:hover{
+    border-style: dashed;
+    border-radius: 50%;
+    background-color: #ffb84c;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.indexinfo, .equipocaja1, .equipo, .frecuentes{
+    margin: 40px;
+}
+.aprenderingles, .tituloservicio, .servicios, .young h3, .teens h3, .particulares h3{
+    text-align: center;
+}
+
+.maxprotitulo2{
+    border: solid;
+    background-color: #ffb84c;
+}
+.maxprotitulo2 h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.mision, .vision{
+    margin: 40px;
+    border: groove;
+    width: 600px;
+    background: rgb(255,184,76);
+    background: linear-gradient(90deg, rgba(255,184,76,1) 0%, rgba(245,234,234,1) 26%, rgba(140,56,57,1) 100%);
+}
+.general, .negocios, .examenes{
+    border-style: dashed;
+    width: 300px;
+    margin: 50px;
+    padding: 30px;
+    padding-top: 10px;
+}
+.inscribete{
+    text-align: center;
+    border: solid;
+    border-radius: 60%;
+    -webkit-border-radius: 60%;
+    -moz-border-radius: 60%;
+    -ms-border-radius: 60%;
+    -o-border-radius: 60%;
+    font-style: italic;
+}
+.alp{
+    text-decoration: none;
+}
+
+.inscribete:hover{
+    background-color: #df8adf;
+}
+.formulario{
+    border: groove;
+    margin: auto;
+    width: 60%;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.young, .teens, .particulares{
+    border-style:double;
+    width: 300px;
+    margin: 50px;
+    padding: 30px;
+    padding-top: 10px;
+}
+.vivo, .interactiva, .metodologia, .tutores{
+    border-style:double;
+    width: 80%;
+    margin: 50px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+.titulogrande{
+    font-size: 2.5rem;
+}
+.videocaja{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.titulovideo, .video{
+    padding: 50px;
+}
+.titulovideo{
+    margin-top: 70px;
+}
+.aprenderingles{
+    padding-top: 30px;
+}
+
+.titulojovenes2{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.titulojovenes2 h1{
+    border-style: solid;
+    background-color: #ffb84c;
+    width: 700px;
+}
+.equipocaja1, .vivo, .interactiva{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.cajasadultos, .cajajovenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tutores, .metodologia{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.nombreapellido, .telefonoemail{
+    font-size: 1.2rem;
+    display: flex;
+}
+.programa, .comentario{
+    font-size: 1.2rem;
+}
+.cajaprograma{
+    width: 60%;
+}
+.cajanombre, .cajaapellido, .cajatelefono, .cajaemail{
+    width: 250px;
+}
+.formnombre, .formtelefono{
+    padding-right: 60px;
+}
+.boton1{
+    width: 100px;
+    margin: 20px;
+    font-size: 1rem;
+}
+.circulos1, .circulos2, .circulos3{
+    padding: 50px;
+    margin: 30px;
+    border-style: solid;
+    text-align: center;
+}
+.circulos{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+footer{
+    background-color: #ffb84c;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.5fr 0.5fr;
+    justify-items: center;
+    grid-template-areas: 
+    "siguenos contacto"
+    "copyright contacto";
+}
+.siguenos{
+    grid-area: "siguenos";
+}
+.contacto{
+    grid-area: "contacto";
+    border-style:inset;
+    width: auto;
+    background-color:#fdc776;
+    text-align: center;
+    padding: 5px;
+}
+.contacto h4{
+    text-align: left;
+}
+.copyright{
+    border-style: inset;
+    background-color:#fdc776;
+    text-align: center;
+    padding: 5px;
+    grid-area: "copyright";
+    justify-self: center;
+}
+
+@media only screen and (max-width:500px) {
+    footer{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    grid-template-areas: 
+    "siguenos"
+    "contacto"
+    "copyright";
+    }
+}
+
+.carousel{
+    margin: 2rem;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.carousel-caption{
+    border-style: dashed;
+    background-color:black;
+}
