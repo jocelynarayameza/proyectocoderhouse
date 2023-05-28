@@ -3,19 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-nav{
-    display: flex;
-    align-items: center;
-}
+
 nav a{
-    text-decoration: none;
     padding-left: 20px;
     padding-right: 20px;
-    border-right:groove;
-    border-color: none;
-}
-nav li{
-    display: inline;
 }
 body {background-color: #e5eaea;
     font-family: 'Mandali', sans-serif;
@@ -28,9 +19,11 @@ body {background-color: #e5eaea;
     padding-right: 30px;
 }
 .redesheader{
-    text-align: right;
     padding: 10px;
     background-color: #ffb84c;
+    display: flex;
+    align-items:center;
+    justify-content:space-between
 }
 .caja1, .caja2{
     border: groove;
@@ -143,7 +136,7 @@ h1{
 .indexinfo, .equipocaja1, .equipo, .frecuentes{
     margin: 40px;
 }
-.aprenderingles, .tituloservicio, .servicios, .young h3, .teens h3, .particulares h3{
+.aprenderingles, .tituloservicio, .servicios, .young h3, .teens h3, .particulares h3, .frecuentes h1, .testimoniostitulo{
     text-align: center;
 }
 
@@ -320,7 +313,7 @@ footer{
     justify-self: center;
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:600px) {
     footer{
     display: grid;
     gap: 20px;
@@ -343,4 +336,7 @@ footer{
 .carousel-caption{
     border-style: dashed;
     background-color:black;
+}
+.card-group, .accordion{
+    margin: 30px;   
 }

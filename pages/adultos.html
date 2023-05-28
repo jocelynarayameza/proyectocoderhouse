@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MaxPro English 👩‍🏫 Adultos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="shortcut icon" href="../multi/favicon_io 3/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,22 +14,43 @@
 </head>
 <body>
     <header>
-        <div class="redesheader">
-            <img src="../multi/facebook.svg" alt="logofb" width="50px">
-            <img src="../multi/instagram.svg" alt="logoig" width="50px">
-            <img src="../multi/linkedin.svg" alt="logoli" width="50px">
-            <img src="../multi/youtube.svg" alt="logoyt" width="50px">
-        </div>
-        <nav>
-            <img class="logo1" src="../multi/Logo Pro English.png" alt="logomp">
-            <ul>
-                <li><a href="../index.html">Inicio</a> </li>
-                <li><a href="./equipo.html">Nuestra institución</a></li>
-                <li><a href="./adultos.html">Adultos</a> </li>
-                <li><a href="./jovenes.html">Jóvenes y niños</a> </li>
-                <li><a href="./contacto.html">Contacto</a> </li>
-            </ul>
-       </nav>
+      <div class="redesheader">
+        <div> <img src="../multi/Logo Pro English.png" alt="logoheader" width="40%"></div>
+        <div>
+            <a href="https://www.facebook.com/"><img src="../multi/facebook.svg" alt="logofb" width="50px"></a>
+            <a href="https://www.instagram.com/"><img src="../multi/instagram.svg" alt="logoig" width="50px"></a>
+            <a href="https://www.linkedin.com/"><img src="../multi/linkedin.svg" alt="logoli" width="50px"></a>
+            <a href="https://www.youtube.com/"><img src="../multi/youtube.svg" alt="logoyt" width="50px"></a>
+        </div> 
+    </div>  
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./equipo.html">Nuestra institución</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./adultos.html">Adultos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./jovenes.html">Jóvenes y niños</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Busca aquí" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
         <picture>
@@ -68,23 +90,119 @@
             </div>
         </section>
         <section>
-            <h1 class="equipo titulogrande">Testimonios</h1>
-            ⭐⭐⭐⭐⭐
-            <img src="../multi/testimonio 3.png" alt="testimonio 1" width="150px">
-            ⭐⭐⭐⭐⭐
-            <img src="../multi/testimonio 2.png" alt="testimonio 2" width="150px">
-            ⭐⭐⭐⭐⭐
-            <img src="../multi/testimonio 1.png" alt="testimonio 3" width="150px">
+            <h1 class="testimoniostitulo">Testimonios</h1>
+            <div class="card-group">
+              <div class="card bg-danger-subtle">
+                <img src="../multi/testimonio 1.png" class="card-img-top" alt="testimonio1">
+                <div class="card-body">
+                  <h5 class="card-title">Adriana Muñoz ⭐⭐⭐⭐⭐</h5>
+                  <p class="card-text">"Me encantó hacer el curso de MaxProEnglish. Los profesores son increíbles y siempre están dispuestos a ayudar. Las clases en vivo me brindaron la oportunidad de practicar mis habilidades de conversación y realmente sentí que mi confianza en el inglés mejoró. Además, los materiales y recursos fueron muy útiles y me permitieron estudiar a mi propio ritmo. ¡Recomendaría este curso a cualquiera que quiera mejorar su inglés de manera efectiva y divertida!"
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Agosto de 2018</small>
+                </div>
+              </div>
+              <div class="card bg-danger-subtle">
+                <img src="../multi/testimonio 2.png" class="card-img-top" alt="testimonio2">
+                <div class="card-body" >
+                  <h5 class="card-title">Martín Ríos ⭐⭐⭐⭐⭐</h5>
+                  <p class="card-text">"Gracias a MaxProEnglish, logré alcanzar mis objetivos de aprendizaje en inglés. Las clases particulares fueron una gran opción para mí, ya que pude recibir una atención personalizada y trabajar en mis áreas de debilidad. La metodología de enseñanza fue muy efectiva y los tutores eran muy pacientes y amigables. Estoy muy contento con los resultados que obtuve y sin duda continuaré mi aprendizaje con MaxProEnglish".
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Febrero de 2020</small>
+                </div>
+              </div>
+              <div class="card bg-danger-subtle">
+                <img src="../multi/testimonio 3.png" class="card-img-top" alt="testimonio3">
+                <div class="card-body">
+                  <h5 class="card-title">Marcela Garcés ⭐⭐⭐⭐⭐</h5>
+                  <p class="card-text">"Mi experiencia con MaxProEnglish ha sido excelente. Los talleres temáticos fueron realmente interesantes y me permitieron profundizar en aspectos específicos del idioma inglés que eran relevantes para mí. Las clases en vivo fueron interactivas y me ayudaron a mejorar mi fluidez y pronunciación. Además, el equipo de soporte siempre estuvo disponible para responder a mis preguntas y brindar asistencia cuando la necesitaba. Recomiendo MaxProEnglish a cualquiera que busque una experiencia de aprendizaje en inglés de calidad y enriquecedora".
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Julio de 2022</small>
+                </div>
+              </div>
+            </div>
         </section>
         <section class="frecuentes">
-            <h1>Preguntas frecuentes</h1>
-            <p>¿Cómo puedo saber cuál es el nivel de inglés adecuado para mí?
-            </p>
-            <p>¿Cómo puedo acceder a las clases en vivo y talleres?</p>
-            <p>¿Qué recursos de aprendizaje están disponibles?</p>
-            <p>¿Cuál es el método de enseñanza utilizado?</p>
-            <p>¿Puedo recibir un certificado de finalización?</p>
-            <p>¿Qué sucede si no puedo asistir a una clase en vivo?</p>
+          <h1>Preguntas frecuentes</h1>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item border border-danger-subtle">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  ¿Cómo puedo saber cuál es el nivel de inglés adecuado para mí?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Para determinar tu nivel de inglés adecuado, ofrecemos evaluaciones de nivel gratuitas. Puedes completar una evaluación en línea o programar una prueba con uno de nuestros instructores. También puedes proporcionar información sobre tu experiencia previa con el idioma y tus objetivos de aprendizaje para que podamos recomendarte el nivel adecuado. 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border border-danger-subtle">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  ¿Cómo puedo acceder a las clases en vivo y talleres?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Acceder a nuestras clases en vivo y talleres es muy sencillo. Una vez que te hayas registrado en nuestro programa, recibirás acceso a nuestra plataforma en línea. A través de tu cuenta personal, podrás acceder a las clases en vivo y talleres programados. Te proporcionaremos un enlace y las instrucciones necesarias para unirte a las sesiones en tiempo real. Además, tendrás acceso a material adicional, como grabaciones de clases anteriores y recursos de apoyo. Estaremos disponibles para brindarte asistencia técnica y responder cualquier pregunta que puedas tener para que puedas disfrutar plenamente de nuestras clases en vivo y talleres interactivos.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border border-danger-subtle">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  ¿Qué recursos de aprendizaje están disponibles?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  En MaxProEnglish, ofrecemos una amplia gama de recursos de aprendizaje para complementar tus clases. Tendrás acceso a materiales didácticos interactivos, como libros de texto digitales, videos educativos, juegos interactivos y ejercicios prácticos. Además, nuestra plataforma en línea te brindará acceso a actividades adicionales, grabaciones de clases anteriores y recursos de refuerzo. También te proporcionaremos recomendaciones de recursos externos, como aplicaciones móviles y sitios web, que pueden ayudarte a practicar y mejorar tus habilidades en inglés. Estamos comprometidos a brindarte los mejores recursos para que puedas aprovechar al máximo tu experiencia de aprendizaje.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border border-danger-subtle">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  ¿Cuál es el método de enseñanza utilizado?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Nuestro método se basa en brindar a los estudiantes amplias oportunidades para practicar y aplicar el inglés en situaciones reales. Nuestros instructores altamente capacitados utilizan una combinación de actividades interactivas, ejercicios prácticos, juegos de roles y conversaciones para fomentar la fluidez y la confianza en el idioma. Además, adaptamos nuestras clases a los estilos de aprendizaje individuales y nos enfocamos en desarrollar las habilidades de escucha, habla, lectura y escritura. Nuestro objetivo es que los estudiantes adquieran habilidades prácticas que les permitan comunicarse efectivamente en el mundo real.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border border-danger-subtle">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  ¿Puedo recibir un certificado de finalización?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Sí, en MaxProEnglish ofrecemos certificados de finalización para aquellos estudiantes que completen con éxito nuestros programas de estudio. Estos certificados son reconocidos y pueden ser utilizados como evidencia de tu dedicación y logros en el aprendizaje del inglés. Al finalizar tu programa, recibirás un certificado que especificará el nivel alcanzado y las habilidades adquiridas. Este certificado puede ser una herramienta valiosa para tu currículum, solicitudes de empleo o admisión a instituciones académicas. Nos enorgullece reconocer tus esfuerzos y recompensar tu dedicación con un certificado de finalización.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border border-danger-subtle">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  ¿Qué sucede si no puedo asistir a una clase en vivo?
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Entendemos que a veces surgen imprevistos y puede que no puedas asistir a una clase en vivo. No te preocupes, en MaxProEnglish tenemos opciones para ayudarte. Si no puedes asistir a una clase en vivo, podrás acceder a la grabación de la sesión a través de nuestra plataforma en línea. De esta manera, podrás revisar el contenido y ponerte al día con el material que te perdiste. Además, nuestros instructores estarán disponibles para responder cualquier pregunta que puedas tener sobre la clase o el contenido. Queremos asegurarnos de que no te pierdas nada importante y que sigas progresando en tu aprendizaje del inglés.
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
     </main>
     <footer>
@@ -102,5 +220,6 @@
         </div>
         <div class="copyright"><h5>Copyright ©2023 All rights reserved</h5></div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
