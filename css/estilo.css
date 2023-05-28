@@ -325,8 +325,8 @@ footer{
     "contacto"
     "copyright";
     }
-    .video{
-        margin: 20px;
+    .video iframe{
+        width: 100%;
     }
     .redessociales img{
         width: 35px;
