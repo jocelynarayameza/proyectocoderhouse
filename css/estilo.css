@@ -45,7 +45,7 @@ body {background-color: #e5eaea;
 }
 .titulocaja1{
     text-align: center;
-    border: groove;
+    border: none;
     width: 30%;
     margin: auto;
     margin-top: 10px;
@@ -325,6 +325,15 @@ footer{
     "contacto"
     "copyright";
     }
+    .video{
+        margin: 20px;
+    }
+    .redessociales img{
+        width: 35px;
+    }
+   .logoheader{
+    width: 150px;
+   }
 }
 
 .carousel{
