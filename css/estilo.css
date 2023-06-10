@@ -108,10 +108,10 @@ header .headers {
   align-items: center; }
   .equipocaja1 .maxprotitulo2 {
     border: solid;
-    background-color: #ffb84c; }
+    background-color: #ffb84c;
+    text-align: center; }
     .equipocaja1 .maxprotitulo2 .maxprotitulo2 h1 {
-      font-size: 2rem;
-      text-align: center; }
+      font-size: 2rem; }
   .equipocaja1 .parrafoequipo {
     padding: 20px;
     text-align: justify; }
@@ -144,9 +144,9 @@ header .headers {
     margin: 50px;
     padding: 30px;
     padding-top: 10px; }
-  .cajasadultos .general .cajainscribete, .cajasadultos .negocios .cajainscribete, .cajasadultos .examenes .cajainscribete, .cajajovenes .general .cajainscribete, .cajajovenes .negocios .cajainscribete, .cajajovenes .examenes .cajainscribete {
+  .cajasadultos .general .cajainscribete, .cajasadultos .negocios .cajainscribete, .cajasadultos .examenes .cajainscribete, .cajasadultos .teens .cajainscribete, .cajasadultos .particulares .cajainscribete, .cajasadultos .young .cajainscribete, .cajajovenes .general .cajainscribete, .cajajovenes .negocios .cajainscribete, .cajajovenes .examenes .cajainscribete, .cajajovenes .teens .cajainscribete, .cajajovenes .particulares .cajainscribete, .cajajovenes .young .cajainscribete {
     text-decoration: none; }
-    .cajasadultos .general .cajainscribete .inscribete, .cajasadultos .negocios .cajainscribete .inscribete, .cajasadultos .examenes .cajainscribete .inscribete, .cajajovenes .general .cajainscribete .inscribete, .cajajovenes .negocios .cajainscribete .inscribete, .cajajovenes .examenes .cajainscribete .inscribete {
+    .cajasadultos .general .cajainscribete .inscribete, .cajasadultos .negocios .cajainscribete .inscribete, .cajasadultos .examenes .cajainscribete .inscribete, .cajasadultos .teens .cajainscribete .inscribete, .cajasadultos .particulares .cajainscribete .inscribete, .cajasadultos .young .cajainscribete .inscribete, .cajajovenes .general .cajainscribete .inscribete, .cajajovenes .negocios .cajainscribete .inscribete, .cajajovenes .examenes .cajainscribete .inscribete, .cajajovenes .teens .cajainscribete .inscribete, .cajajovenes .particulares .cajainscribete .inscribete, .cajajovenes .young .cajainscribete .inscribete {
       text-align: center;
       border: solid;
       border-radius: 60%;
@@ -155,7 +155,7 @@ header .headers {
       -ms-border-radius: 60%;
       -o-border-radius: 60%;
       font-style: italic; }
-      .cajasadultos .general .cajainscribete .inscribete:hover, .cajasadultos .negocios .cajainscribete .inscribete:hover, .cajasadultos .examenes .cajainscribete .inscribete:hover, .cajajovenes .general .cajainscribete .inscribete:hover, .cajajovenes .negocios .cajainscribete .inscribete:hover, .cajajovenes .examenes .cajainscribete .inscribete:hover {
+      .cajasadultos .general .cajainscribete .inscribete:hover, .cajasadultos .negocios .cajainscribete .inscribete:hover, .cajasadultos .examenes .cajainscribete .inscribete:hover, .cajasadultos .teens .cajainscribete .inscribete:hover, .cajasadultos .particulares .cajainscribete .inscribete:hover, .cajasadultos .young .cajainscribete .inscribete:hover, .cajajovenes .general .cajainscribete .inscribete:hover, .cajajovenes .negocios .cajainscribete .inscribete:hover, .cajajovenes .examenes .cajainscribete .inscribete:hover, .cajajovenes .teens .cajainscribete .inscribete:hover, .cajajovenes .particulares .cajainscribete .inscribete:hover, .cajajovenes .young .cajainscribete .inscribete:hover {
         background-color: #e5b0e5; }
 
 .card-group, .accordion {

@@ -122,9 +122,9 @@
     .maxprotitulo2{
         border: solid;
         background-color: $bg-color;
+        text-align: center;
         .maxprotitulo2 h1{
             font-size: 2rem;
-            text-align: center;
         }    
     }
     .parrafoequipo{
@@ -167,7 +167,7 @@
         padding: 30px;
         padding-top: 10px;
     }
-    .general, .negocios, .examenes{
+    .general, .negocios, .examenes, .teens, .particulares, .young {
         .cajainscribete{
             text-decoration: none;
             .inscribete{
