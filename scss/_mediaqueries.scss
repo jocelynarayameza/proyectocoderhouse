@@ -1,0 +1,52 @@
+@media only screen and (max-width:1024px) {
+    .contenidocaja1, .contenidocaja2, .equipocaja1{
+        display: flex;
+        flex-direction: column;
+    }
+    .carousel-caption{
+        padding: 0%;
+    }
+    .carousel-caption h2{
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .cajasindex, .circulos{
+        display: flex;
+        flex-direction: column;
+    }
+    .carousel-caption h2{
+        font-size: smaller;
+    }
+    .formulario{
+        border-radius: 0%;
+        -webkit-border-radius: 0%;
+        -moz-border-radius: 0%;
+        -ms-border-radius: 0%;
+        -o-border-radius: 0%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    footer{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    grid-template-areas: 
+    "siguenos"
+    "contacto"
+    "copyright";
+    }
+    .video iframe{
+        width: 100%;
+    }
+    .redessociales img{
+        width: 35px;
+    }
+   .logoheader{
+    width: 150px;
+   }
+}

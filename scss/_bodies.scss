@@ -1,0 +1,224 @@
+.headers {
+    width: 100%; }
+  
+.cajasindex{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin: 30px;
+    gap: 30px;
+    }
+    .caja1, .caja2{
+        border: groove;
+        width: auto;
+        background: rgb(245,234,234);
+        background: linear-gradient(90deg, rgba(245,234,234,1) 4%, rgba(255,184,76,1) 85%, rgba(140,56,57,1) 100%);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .titulocaja1{
+            text-align: center;
+            border: none;
+            width: 30%;
+            margin: auto;
+            margin-top: 10px;
+        }
+        .contenidocaja1, .contenidocaja2{
+            display: flex;
+            padding: 10px;
+            align-items: center;
+            .parrafocaja1{
+                text-align: justify;
+                border-style: none;
+                width: auto;
+                padding: 5%;
+            }
+            .caja1 img, .caja2 img{
+                border-radius: 20%;
+                -webkit-border-radius: 20%;
+                -moz-border-radius: 20%;
+                -ms-border-radius: 20%;
+                -o-border-radius: 20%;
+            }                     
+        }
+
+    }
+
+.indexinfo, .equipo, .frecuentes{
+    margin: 40px;
+    .titulogrande{
+        font-size: 2.5rem;
+    }
+    .circulos{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        .circulos1, .circulos2, .circulos3{
+            padding: 50px;
+            margin: 30px;
+            border-style: solid;
+            text-align: center;
+        }
+        
+    }    
+}
+.test{
+    background-color: #8c3839;
+    margin-left: 10px;
+    margin-right: 10px;
+    .testtexto{
+        color: $bg-color;
+        text-align: center;
+        .testtexto a{
+            text-decoration: none;
+            color:#e5eaea;
+            padding: 5px;
+            &:hover{
+                border-style: dashed;
+                border-radius: 50%;
+                background-color:$bg-color;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+            
+        }
+        
+    }
+    
+}
+
+.aprenderingles, .tituloservicio, .servicios, .young h3, .teens h3, .particulares h3, .frecuentes h1, .testimoniostitulo{
+    text-align:$alineacion;
+}
+
+.aprenderingles, .tituloservicio, .servicios, .young h3, .teens h3, .particulares h3, .frecuentes h1, .testimoniostitulo{
+    text-align:$alineacion;
+}
+
+.aprenderingles{
+    padding-top: 30px;
+}
+
+.videocaja{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .titulovideo{
+        margin-top: 70px;
+        padding: 50px;
+    }
+    .video{
+        padding: 50px;
+    }
+}
+
+.equipocaja1{
+    margin: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items:$alineacion;
+    .maxprotitulo2{
+        border: solid;
+        background-color: $bg-color;
+        .maxprotitulo2 h1{
+            font-size: 2rem;
+            text-align: center;
+        }    
+    }
+    .parrafoequipo{
+        padding: 20px;
+        text-align: justify;
+    }
+    
+}
+
+.cajaequipo{
+    border: groove;
+    width: auto;
+    background: rgb(140,56,57);
+    background: linear-gradient(90deg, rgba(140,56,57,1) 0%, rgba(242,228,228,1) 0%, rgba(255,184,76,1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carousel{
+    margin: 2rem;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    .carousel-caption{
+        border-style: dashed;
+        background-color:black;
+    }
+    
+}
+
+.cajasadultos, .cajajovenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .general, .negocios, .examenes{
+        border-style: dashed;
+        width: 300px;
+        margin: 50px;
+        padding: 30px;
+        padding-top: 10px;
+    }
+    .general, .negocios, .examenes{
+        .cajainscribete{
+            text-decoration: none;
+            .inscribete{
+                text-align: center;
+                border: solid;
+                border-radius: 60%;
+                -webkit-border-radius: 60%;
+                -moz-border-radius: 60%;
+                -ms-border-radius: 60%;
+                -o-border-radius: 60%;
+                font-style: italic;
+                &:hover{
+                background-color: #e5b0e5;
+            }
+            
+            }   
+        }      
+    }  
+}
+
+.card-group, .accordion{
+    margin: 30px;   
+}
+
+.young, .teens, .particulares{
+    border-style:double;
+    width: 300px;
+    margin: 50px;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+.formulario{
+    border: groove;
+    border-radius: 60%;
+    margin: auto;
+    width: 60%;
+    padding: 5%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#fdc776;
+    -webkit-border-radius: 60%;
+    -moz-border-radius: 60%;
+    -ms-border-radius: 60%;
+    -o-border-radius: 60%;
+    .boton1{
+        padding: 5px;
+    }
+    
+}
+   
+    

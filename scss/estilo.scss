@@ -1,0 +1,21 @@
+$bg-color:#ffb84c; 
+$alineacion:center;
+
+@import "header";
+@import "bodies";
+@import "footer";
+@import "mediaqueries";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {background-color: #e5eaea;
+    font-family: 'Quicksand', sans-serif;}
+h1{
+    color: #8c3839;
+}
+
+
