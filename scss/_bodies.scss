@@ -89,13 +89,10 @@
     
 }
 
-.aprenderingles, .tituloservicio, .servicios, .young h3, .teens h3, .particulares h3, .frecuentes h1, .testimoniostitulo{
+.aprenderingles, .tituloservicio, .servicios, .young h3, .teens h3, .particulares h3, .frecuentes h1, .testimoniostitulo, .dudas, .contactanos{
     text-align:$alineacion;
 }
 
-.aprenderingles, .tituloservicio, .servicios, .young h3, .teens h3, .particulares h3, .frecuentes h1, .testimoniostitulo{
-    text-align:$alineacion;
-}
 
 .aprenderingles{
     padding-top: 30px;
@@ -198,6 +195,14 @@
     margin: 50px;
     padding: 30px;
     padding-top: 10px;
+}
+
+.cajacontacto{
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+
 }
 
 .formulario{

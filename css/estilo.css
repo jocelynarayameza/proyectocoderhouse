@@ -82,10 +82,7 @@ header .headers {
         -ms-border-radius: 50%;
         -o-border-radius: 50%; }
 
-.aprenderingles, .tituloservicio, .servicios, .young h3, .teens h3, .particulares h3, .frecuentes h1, .testimoniostitulo {
-  text-align: center; }
-
-.aprenderingles, .tituloservicio, .servicios, .young h3, .teens h3, .particulares h3, .frecuentes h1, .testimoniostitulo {
+.aprenderingles, .tituloservicio, .servicios, .young h3, .teens h3, .particulares h3, .frecuentes h1, .testimoniostitulo, .dudas, .contactanos {
   text-align: center; }
 
 .aprenderingles {
@@ -167,6 +164,12 @@ header .headers {
   margin: 50px;
   padding: 30px;
   padding-top: 10px; }
+
+.cajacontacto {
+  display: flex;
+  justify-items: center;
+  justify-content: space-around;
+  padding-top: 20px; }
 
 .formulario {
   border: groove;
