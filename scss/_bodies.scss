@@ -69,19 +69,16 @@
     .testtexto{
         color: $bg-color;
         text-align: center;
-        .testtexto a{
+        .linktest{
             text-decoration: none;
             color:#e5eaea;
-            padding: 5px;
+           
             &:hover{
-                border-style: dashed;
-                border-radius: 50%;
+                border-style:dashed;
+                padding-right: 8px;
                 background-color:$bg-color;
-                -webkit-border-radius: 50%;
-                -moz-border-radius: 50%;
-                -ms-border-radius: 50%;
-                -o-border-radius: 50%;
-            }
+                
+}
             
         }
         
@@ -110,7 +107,6 @@
         padding: 50px;
     }
 }
-
 .equipocaja1{
     margin: 40px;
     display: flex;

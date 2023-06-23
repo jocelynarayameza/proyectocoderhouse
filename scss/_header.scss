@@ -9,5 +9,26 @@ header{
     .headers{
         width: 100%;
     }
-    
+    .nav-item{
+        :hover{
+            background-color:burlywood ;
+            border-radius: 5%;
+            -webkit-border-radius: 5%;
+            -moz-border-radius: 5%;
+            -ms-border-radius: 5%;
+            -o-border-radius: 5%;
+            color:antiquewhite;
+        }
+    }
+    .navbar-brand{
+        &:hover{
+            background-color:burlywood ;
+            border-radius: 5%;
+            -webkit-border-radius: 5%;
+            -moz-border-radius: 5%;
+            -ms-border-radius: 5%;
+            -o-border-radius: 5%;
+            color:antiquewhite;
+        }
+    }
 }

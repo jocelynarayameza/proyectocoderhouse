@@ -8,6 +8,24 @@ header .redesheader {
 header .headers {
   width: 100%; }
 
+header .nav-item :hover {
+  background-color: burlywood;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+  color: antiquewhite; }
+
+header .navbar-brand:hover {
+  background-color: burlywood;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+  color: antiquewhite; }
+
 .headers {
   width: 100%; }
 
@@ -69,18 +87,13 @@ header .headers {
   .test .testtexto {
     color: #ffb84c;
     text-align: center; }
-    .test .testtexto .testtexto a {
+    .test .testtexto .linktest {
       text-decoration: none;
-      color: #e5eaea;
-      padding: 5px; }
-      .test .testtexto .testtexto a:hover {
+      color: #e5eaea; }
+      .test .testtexto .linktest:hover {
         border-style: dashed;
-        border-radius: 50%;
-        background-color: #ffb84c;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%; }
+        padding-right: 8px;
+        background-color: #ffb84c; }
 
 .aprenderingles, .tituloservicio, .servicios, .young h3, .teens h3, .particulares h3, .frecuentes h1, .testimoniostitulo, .dudas, .contactanos {
   text-align: center; }
@@ -236,7 +249,9 @@ footer {
     -webkit-border-radius: 0%;
     -moz-border-radius: 0%;
     -ms-border-radius: 0%;
-    -o-border-radius: 0%; } }
+    -o-border-radius: 0%; }
+  .cajamaxprotitulo2, .imagenmaxpro, .tituloimagen2 {
+    width: 100%; } }
 
 @media only screen and (max-width: 600px) {
   footer {
